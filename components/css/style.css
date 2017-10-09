@@ -10,22 +10,21 @@ hr {
   border-color: #dcdcdc;
 }
 
-hr:after {
+hr::after {
   content: '\f121';
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
-  top: -.8em;
-  padding: 0 .25em;
+  top: -0.8em;
+  padding: 0 0.25em;
   font-size: 2em;
   color: #ccc;
-  background-color: white
+  background-color: white;
 }
 
-
-/* Portfolio Section*/
+/* Portfolio Section */
 .type-work {
-  color: #000000;
+  color: #000;
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 30px;
@@ -40,12 +39,12 @@ hr:after {
 }
 
 .work-nav #filters li {
-  margin: 0 0 30px 0;
+  margin: 0 0 30px;
   padding: 0;
 }
 
 .work-nav #filters li a {
-  color: #B8B8B8;
+  color: #b8b8b8;
   text-decoration: none;
 }
 
@@ -66,8 +65,9 @@ hr:after {
   flex-direction: column;
 }
 
-.b-wrapper h2, .b-wrapper p {
-  margin: 0 15px 0 15px;
+.b-wrapper h2,
+.b-wrapper p {
+  margin: 0 15px;
 }
 
 #port-grid .row .col-md-4 a {
@@ -78,42 +78,37 @@ hr:after {
   .b-wrapper h2 {
     font-size: 2em;
   }
+
   .b-wrapper p {
     font-size: 1.4em;
   }
 }
 
-
-/* sm */
-
 @media screen and (min-width: 768px) {
   .b-wrapper h2 {
     font-size: 1.2em;
   }
+
   .b-wrapper p {
     font-size: 0.6em;
   }
 }
 
-
-/* md */
-
 @media screen and (min-width: 992px) {
   .b-wrapper h2 {
     font-size: 1.6em;
   }
+
   .b-wrapper p {
     font-size: 1em;
   }
 }
 
-
-/* lg */
-
 @media screen and (min-width: 1200px) {
   .b-wrapper h2 {
     font-size: 1.9em;
   }
+
   .b-wrapper p {
     font-size: 1em;
   }
@@ -138,7 +133,7 @@ hr:after {
   background-position: bottom;
 }
 
-#particles-js:after {
+#particles-js::after {
   content: "";
   width: 100%;
   height: 80px;
@@ -155,34 +150,39 @@ hr:after {
   z-index: 10;
 }
 
-#abilities ul>li .ability-title {
+#abilities ul > li .ability-title {
   display: inline-block;
   width: 60%;
 }
 
-#abilities ul>li .ability-score {
+#abilities ul > li .ability-score {
   float: right;
 }
 
-#abilities ul>li {
+#abilities ul > li {
   font-size: 15px;
   padding: 3px 2px;
   margin: 0 7px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .ability-score i {
   padding-left: 2px;
 }
 
-#abilities ul>li:hover {
-  background: #F2F2F2;
+#abilities ul > li:hover {
+  background: #f2f2f2;
   transform: scale(1.1);
 }
 
-
-/* WOW */
-
 .wow {
   visibility: hidden;
+}
+
+::selection {
+  background: #f96332;
+}
+
+::-moz-selection {
+  background: #f96332;
 }
