@@ -1,0 +1,47 @@
+.type-work {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.work-nav #filters {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    margin: 0 0 30px;
+    padding: 0;
+    a {
+      color: $grey;
+      text-decoration: none;
+      &:hover {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      &.selected {
+        color: $orange;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.d-flex-center {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.b-wrapper {
+  h2, p {
+    margin: 0 15px;
+  }
+}
+
+#port-grid .row .col-md-4 a {
+  margin-bottom: 17px;
+}

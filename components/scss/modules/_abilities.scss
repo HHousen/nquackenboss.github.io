@@ -1,0 +1,22 @@
+#abilities ul > li {
+  .ability-title {
+    display: inline-block;
+    width: 60%;
+  }
+  .ability-score {
+    float: right;
+  }
+  font-size: 15px;
+  padding: 3px 2px;
+  margin: 0 7px;
+  transition: all 0.2s ease-in-out;
+}
+
+.ability-score i {
+  padding-left: 2px;
+}
+
+#abilities ul > li:hover {
+  background: $light-grey;
+  transform: scale(1.1);
+}

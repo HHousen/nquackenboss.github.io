@@ -1,0 +1,78 @@
+/* HR Element */
+hr {
+  margin: 40px auto 30px;
+  padding: 0;
+  max-width: 512px;
+  border: 0;
+  border-top: solid 2px;
+  text-align: center;
+  border-color: $grey;
+  &::after {
+    content: '\f121';
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    padding: 0 0.25em;
+    font-size: 2em;
+    color: $grey;
+    background-color: #fff;
+  }
+}
+
+.wow {
+  visibility: hidden;
+}
+
+::selection {
+  background: $orange;
+}
+
+// Responsive Text
+@media screen and (max-width: 767px) {
+  .b-wrapper {
+    h2 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.4em;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .b-wrapper {
+    h2 {
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: 0.6em;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .b-wrapper {
+    h2 {
+      font-size: 1.6em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .b-wrapper {
+    h2 {
+      font-size: 1.9em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
