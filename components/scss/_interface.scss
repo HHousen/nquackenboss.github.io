@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 /* HR Element */
 hr {
   margin: 40px auto 30px;
@@ -44,11 +48,11 @@ hr {
 @media screen and (min-width: 768px) {
   .b-wrapper {
     h2 {
-      font-size: 1.2em;
+      font-size: 1em;
     }
 
     p {
-      font-size: 0.6em;
+      font-size: .6em;
     }
   }
 }
