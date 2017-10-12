@@ -1,6 +1,6 @@
 {
   "name": "nathan-quackenboss-portfolio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The Official Nathan Quackenboss Website",
   "scripts": {
     "lint:js": "eslint components/scripts/ --output-file components/tmp/js-lint.txt --color",
