@@ -45,3 +45,26 @@
 #port-grid .row .col-md-4 a {
   margin-bottom: 17px;
 }
+
+.b-wrapper {
+  h2 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  @include media-breakpoint-down(sm) {
+    font-size: 1.1em;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 0.5em;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 0.7em;
+  }
+  @include media-breakpoint-up(xl) {
+    font-size: 0.9em;
+  }
+}
