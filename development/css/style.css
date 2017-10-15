@@ -7563,8 +7563,10 @@ hr {
 .b-wrapper h2, .b-wrapper p {
   margin: 0 15px; }
 
-#port-grid .row .col-md-4 a {
-  margin-bottom: 17px; }
+#port-grid {
+  font-size: 16px; }
+  #port-grid .row .col-md-4 a {
+    margin-bottom: 17px; }
 
 .b-wrapper h2 {
   font-size: 1.8em; }
@@ -7587,6 +7589,12 @@ hr {
 @media (min-width: 1200px) {
   .b-wrapper {
     font-size: 0.9em; } }
+
+#about p {
+  font-size: 24px; }
+  @media (max-width: 767px) {
+    #about p {
+      font-size: 16px; } }
 
 #abilities ul > li {
   font-size: 15px;
@@ -7633,6 +7641,15 @@ hr {
     bottom: 0;
     left: 0;
     z-index: 10; }
+
+@media (max-width: 991px) {
+  .hi-icon-effect-1 .hi-icon {
+    margin: 3px 6px;
+    height: 70px;
+    width: 70px; }
+    .hi-icon-effect-1 .hi-icon::before {
+      font-size: 37px;
+      line-height: 70px; } }
 
 @media screen and (min-width: 768px) {
   .footer .copyright {

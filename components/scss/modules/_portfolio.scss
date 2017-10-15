@@ -42,8 +42,12 @@
   }
 }
 
-#port-grid .row .col-md-4 a {
-  margin-bottom: 17px;
+#port-grid {
+  font-size: 16px;
+
+  .row .col-md-4 a {
+    margin-bottom: 17px;
+  }
 }
 
 .b-wrapper {
