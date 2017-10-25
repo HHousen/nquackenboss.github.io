@@ -3290,8 +3290,9 @@ body {
     color: #2c2c2c;
     font-size: 14px;
     font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    font-smooth: always;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .main {
